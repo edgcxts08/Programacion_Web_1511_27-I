@@ -1,9 +1,9 @@
   p {
-        color: blue;
+        color: black;
         font-size: 18px;
     }
 
-    .parrafo1 {
+.parrafo1 {
         color: red;
         background-color: #b3cba163;
     }
@@ -36,9 +36,63 @@
     }
     nav a{
         text-decoration: none;
-        color: rgba(51, 56, 10, 45);
+        color: (51, 56, 10, 45);
     }
     nav a:hover{ /*pasar el puntero sobre el texto*/
         color: white;
 
+    }
+    /*PRINCIPAL*/
+    .layout{
+        margin-top: 40px;
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        gap: 20px;
+    }
+    /*MAIN*/
+    main{
+        background: #D4D6A7;
+        padding: 10px;
+        border-radius: 3%;
+    }
+    article{
+        background-color: #D4D6A7;
+        padding: 20px;
+        border-radius: 15px;
+
+    }
+    section{
+        background-color: darkseagreen;
+        padding: 15px;
+        border-radius: 15px;
+        margin-bottom: 20px;
+
+    }
+
+    /*footer que est aen el main*/
+    .main-footer{
+        background-color: #C4E6A4;
+        padding: 10px;
+        border-radius: 10px;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10px;
+    }
+    aside{
+        background-color: rgb(38, 60, 53);
+        padding: 20px;
+        border-radius: 10px;
+    }
+    aside h2 {
+        color: white;
+    }
+    aside section{
+        background-color: #c9d4cc;
+        font: bold;
+        margin-bottom: 10px;
+
+    }
+
+    .page-footer{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
