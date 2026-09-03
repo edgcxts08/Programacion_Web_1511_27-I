@@ -1,0 +1,44 @@
+  p {
+        color: blue;
+        font-size: 18px;
+    }
+
+    .parrafo1 {
+        color: red;
+        background-color: #b3cba163;
+    }
+    .parrafo2 {
+        color: green;
+        background-color: #b3cba163;
+    }
+    /* HEADER */
+    header{
+        background: #215426;
+        color: #fff;
+        padding: 20px;
+        border-radius: 15px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }   
+    nav{
+        background: #D6AFA7;
+        padding: 10px 15px;
+        display: flex;
+
+    }
+    nav ul{
+        list-style:  none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        gap: 15px;
+    }
+    nav a{
+        text-decoration: none;
+        color: rgba(51, 56, 10, 45);
+    }
+    nav a:hover{ /*pasar el puntero sobre el texto*/
+        color: white;
+
+    }
