@@ -11,3 +11,6 @@ if($conexion->connect_error){
     echo "<h1>Conexión exitosa a la base de datos</h1>";
 }
 
+
+
+
