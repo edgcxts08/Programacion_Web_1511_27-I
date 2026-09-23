@@ -1,0 +1,11 @@
+-- CREAR UNA BASE DE DATOS
+CREATE DATABASE IF NOT EXISTS crud_app;
+
+-- create the crud_app table
+
+CREATE TABLE IF NOT EXISTS crud_app.users (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nombre VARCHAR(150) NOT NULL,
+    email VARCHAR(150) NOT NULL,
+    phone VARCHAR(15) NOT NULL
+);
