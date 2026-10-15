@@ -17,6 +17,7 @@ $result = $conn->query($consulta);
     <a href="create.php">add user</a>
     <table border="1">
         <tr>
+            <th>ID</th>
             <th>Name</th>
             <th>Email</th>
             <th>Phone</th>
@@ -24,6 +25,7 @@ $result = $conn->query($consulta);
         </tr>
         <?php while($row = $result->fetch_assoc()){ ?>
         <tr>
+            <td><?php echo $row['id']; ?></td>
             <td><?php echo $row['username']; ?></td>
             <td><?php echo $row['email']; ?></td>
             <td><?php echo $row['phone']; ?></td>

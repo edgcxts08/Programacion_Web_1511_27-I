@@ -1,4 +1,10 @@
 <?php
+
+// $host= "sql206.infinityfree.com:3306"
+// $user= "if0_43062516"
+// $pass= "TWC2kQKZCJw"
+// $dbName="if0_43062516_crud_app"
+
 //datos del servidor de la base de datos, MySQL
 $host= "127.0.0.1:3306";
 $user="root";
