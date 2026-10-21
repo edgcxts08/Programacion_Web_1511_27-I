@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+  </head>
+  <body>
+    <!-- Formulario principal -->
+    <form id="userForm">
+      <input type="text" id="name" placeholder="Name" required>
+      <input type="email" id="email" placeholder="Email" required>
+      <button type="submit">Add User</button>
+    </form>
+
+    <br>
+
+    <!-- importar JSON -->
+    <input type="file" id="importJSON" accept=".json">
+    <button id="download">JSON Download</button>
+
+    <!-- listar usuarios -->
+    <h3>Users List</h3>
+    <table border="1">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Name</th>
+          <th>Mail</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody id="userTable">
+        
+      </tbody>
+    </table>
+    <script src="app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,33 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 35px;
+
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+
+}
+
+td,th{
+    border: 1px solid black;
+    padding: 15px;
+}
+
+th{
+    background-color: aquamarine;
+
+}
+
+a{
+    margin-right: 10px;
+}
+
+.btn{
+    display: inline-block;
+    padding: 8px 15px;
+    background-color: aquamarine;
+    text-decoration: none;
+    border-radius: 5px;
+}
