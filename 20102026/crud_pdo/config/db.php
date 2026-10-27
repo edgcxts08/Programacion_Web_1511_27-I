@@ -21,7 +21,7 @@ $options = [
 
 try {
     //DSN (Data Source Name) es una cadena que contiene la información necesaria para conectarse a la base de datos: indica el motor + host + nombre de la base de datos + charset
-    $dsn = "mysql:host=$host; dbname=$dbname; charset= $charset";
+    $dsn = "mysql:host=$host;dbname=$dbname;charset=$charset";
     $pdo = new PDO($dsn, $user, $pass, $options);
 } catch (PDOException $e) {
     die("DB error: " . $e->getMessage()); //mensaje d error si no se concecta a la base de datos
