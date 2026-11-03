@@ -1,0 +1,13 @@
+CREATE DATABASE IF NOT EXISTS login_mvc CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
+
+USE login_mvc;
+
+CREATE TABLE IF NOT EXISTS users (
+  id INT UNSIGNED NOT NULL AUTO_INCREMENT,
+  username VARCHAR(250) NOT NULL,
+  email VARCHAR(250) NOT NULL UNIQUE,
+  password_hash VARCHAR(255) NOT NULL,
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  PRIMARY KEY (id),
+  UNIQUE KEY uq_users_email (email)
+)
